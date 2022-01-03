@@ -1,0 +1,26 @@
+<div class="committee-page">
+    <h2 style="margin-left: 40%;">List of Applicants</h2>
+    <div class="applicant-list">
+        <table>
+            <tr>
+                <td> Name</td>
+                <td> Date of Birth</td>
+                <td> class status</td>
+                <td> GPA </td>
+                <td> Current Credits</td>
+            </tr>
+            <tr *ngFor="let applicant of applicantList">
+                <td> {{applicant.firstname}} {{applicant.lastname}}</td>
+                <td> {{applicant.date_of_birth}}</td>
+                <td> {{applicant.class_status}}</td>
+                <td> {{applicant.gpa}} </td>
+                <td> {{applicant.current_credits}}</td>
+            </tr>
+        </table>
+    </div>
+    <button class="btn btn-primary btn-lg" (click)="selectWinner()">Select Winner</button>
+
+    <div id="winnerBox" class="winner">
+        The winner is {{winnerInfo.firstname}} {{winnerInfo.lastname}}, their scholarship award is ${{winnerInfo.amount}} 
+    </div>
+</div>

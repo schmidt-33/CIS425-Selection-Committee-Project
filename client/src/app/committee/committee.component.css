@@ -1,0 +1,42 @@
+.applicant-list{
+    overflow: auto;
+    height: 400px;
+    width: 600px;
+    margin: auto;
+ 
+}
+.list-entry{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.committee-page{
+    padding-top: 50px;
+    font-size: larger;
+    
+}
+
+.btn{
+    margin-left: 42%;
+    margin-top: 10px;
+}
+table, th , td  {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+  }
+  table tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+  .winner{
+    padding-top: 20px;
+    width: 500px;
+    margin: auto;
+  }
+
+  #winnerBox{
+    display: none;
+  }

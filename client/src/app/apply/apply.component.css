@@ -1,0 +1,27 @@
+.require-star{
+    color: red;
+    font-size: larger;
+}
+
+.btn{
+    width: 250px;
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.replyMessage{
+    margin-top: 20%;
+    font-size: 2rem;
+}
+
+#invalidAge{
+    display: none;
+}
+
+#invalidId{
+    display: none;
+}
+
+#approvedApp{
+    display: none;
+}
